@@ -1,11 +1,3 @@
-Great — the repository now becomes the first inhabitable entrance to the institute.
-So the README should not read like documentation, and not like a manifesto.
-It should behave like a walkway: a visitor understands in ~60 seconds what they can actually do here.
-
-Below is a compact first version you can directly adapt.
-
-⸻
-
 M-Possible — Welcome
 
 You don’t join M-Possible.
@@ -66,7 +58,3 @@ Why GitHub?
 
 Because the procedure matters more than the explanation.
 Everything here is versioned so anyone can see what changed and why.
-
-⸻
-
-If you want, the next step is the Getting-Started page — that one should be extremely concrete and almost instruction-manual-like (no philosophy at all).
