@@ -12,13 +12,14 @@ This repository hosts the core measurement protocol for the institute's first an
 
 When does water stop being a liquid? Not when it looks frozen, but when it can no longer flow under gravity.
 
-The Inversion Rigidity Protocol ("The Thud") defines a single, universal binary freezing marker: a sample is frozen when it survives being turned upside down for 10 seconds without any liquid flowing, sliding, or dripping.
+The Inversion Rigidity Protocol ("The Thud") defines a single, universal binary freezing marker. The experiment works in rounds, each following three steps: **Prepare, Chill, Drop.** Fill two cups — one hot, one cold — place them in a freezer for a fixed interval, then turn each upside down. If the water stays, it's frozen. If it falls out, refill and go again.
 
 This test is:
 
 - **Resolution-independent** — a child at a kitchen table and a researcher in a precision laboratory perform the same physical test.
 - **Instrument-free** — no thermometers, cameras, or sensors are required for the base measurement.
 - **Physically meaningful** — it encodes a mechanical phase transition, not a visual impression.
+- **Disturbance-free** — each round is a single, uninterrupted freezing trial with no mid-freeze checking.
 
 Every admissible measurement in the M-Possible network passes through this single gate.
 
@@ -36,7 +37,7 @@ M-Possible does not claim the effect exists or does not exist. The institute map
 
 | Document | Description |
 |---|---|
-| [Inversion Protocol v1.0](protocol/inversion-protocol-v1.0.md) | The full measurement protocol — definitions, procedure, admissibility rules, data protection, and governance |
+| [Inversion Protocol v2.0](protocol/inversion-protocol-v2.0.md) | The full measurement protocol — definitions, Prepare–Chill–Drop procedure, admissibility rules, data protection, and governance |
 | [Getting Started](docs/getting-started.md) | Your first measurement — everything you need to run a paired freezing experiment and submit an admissible result |
 
 ---
