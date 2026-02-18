@@ -1,60 +1,98 @@
-M-Possible — Welcome
+# M-Possible — Inversion Rigidity Protocol
 
-You don’t join M-Possible.
-You measure into it.
+> **Local candidate framework (no parity implied with externally validated laws).**
 
-M-Possible is a public experiment in which people at different levels — from school to laboratory — perform the same observation and combine their results into one shared map.
+M-Possible is a protocol community whose product is epistemic utility: the capacity of a system to let any participant verify a claim at their own resolution, without requiring trust in the conclusion.
 
-The goal is not to tell whether something is true.
-The goal is to make it possible for anyone to check it themselves.
+This repository hosts the core measurement protocol for the institute's first anchor phenomenon — the Mpemba effect.
 
-Our first anchor phenomenon is the freezing of water (the Mpemba question: can warmer water sometimes freeze sooner than colder water?).
-Instead of debating answers, we compare observations made under many conditions.
+---
 
-⸻
+## What is the Inversion Rigidity Protocol?
 
-What you can do here (2 minutes)
-	1.	Perform a simple paired freezing test
-	2.	Record one clearly defined event (“the thud”)
-	3.	Submit the result
-	4.	See how your observation changes the map
+When does water stop being a liquid? Not when it looks frozen, but when it can no longer flow under gravity.
 
-You do not need special equipment.
-You do not need to be right.
-You only need to follow the same procedure as everyone else.
+The Inversion Rigidity Protocol ("The Thud") defines a single, universal binary freezing marker: a sample is frozen when it survives being turned upside down for 10 seconds without any liquid flowing, sliding, or dripping.
 
-→ Start here: Getting Started Guide￼
+This test is:
 
-⸻
+- **Resolution-independent** — a child at a kitchen table and a researcher in a precision laboratory perform the same physical test.
+- **Instrument-free** — no thermometers, cameras, or sensors are required for the base measurement.
+- **Physically meaningful** — it encodes a mechanical phase transition, not a visual impression.
 
-How the project works
+Every admissible measurement in the M-Possible network passes through this single gate.
 
-Every contribution is a measurement, not an opinion.
-	•	Low-precision observations define the coastline
-	•	High-precision experiments resolve its structure
-	•	The shared dataset keeps both without mixing them
+---
 
-No single measurement proves or disproves anything.
-Many measurements together show where behaviour becomes reliable.
+## What is the Mpemba effect?
 
-⸻
+Under certain conditions, hot water appears to freeze faster than cold water. The phenomenon is experimentally contested, theoretically unresolved, and surprisingly accessible — anyone with two cups of water and a freezer can investigate it.
 
-Principles
-	•	One shared definition of the event
-	•	Same rules for everyone
-	•	No authority required to participate
-	•	The map updates — it does not conclude
+M-Possible does not claim the effect exists or does not exist. The institute maps the phenomenon across environments, resolutions, and operator groups. The map updates. The map does not conclude.
 
-⸻
+---
 
-Project status
+## Repository contents
 
-This is an early-stage protocol community.
-The method is being tested in the open and will change as we learn.
+| Document | Description |
+|---|---|
+| [Inversion Protocol v1.0](protocol/inversion-protocol-v1.0.md) | The full measurement protocol — definitions, procedure, admissibility rules, data protection, and governance |
+| [Getting Started](docs/getting-started.md) | Your first measurement — everything you need to run a paired freezing experiment and submit an admissible result |
 
-⸻
+---
 
-Why GitHub?
+## How participation works
 
-Because the procedure matters more than the explanation.
-Everything here is versioned so anyone can see what changed and why.
+You do not join M-Possible by signing up. You join by contributing an admissible measurement.
+
+| Role | What you do |
+|---|---|
+| **Observer** | Read the protocol and the public map. No account needed. |
+| **Operator** | Run the inversion test, record your data, submit a Minimum Admissible Submission (MAS). You need a pseudonymous account. |
+| **Cartographer** | Refine the protocol, analyse submitted data, propose revisions. Earned through sustained contribution. |
+
+Authority in this system comes from reproducibility, not credentials.
+
+---
+
+## Principles
+
+**One binary, universally.** Every measurement uses the same inversion test. Higher-resolution operators add data; they do not replace the shared criterion.
+
+**Admissibility is public.** The rules for what counts as an admissible measurement are listed in the protocol and nowhere else. No reputation, institution, or affiliation can override them.
+
+**Ambiguity is data.** If you are unsure whether the sample passed the test, log it as ambiguous. The system collects uncertainty — it does not suppress it.
+
+**No confirmation language.** The institute does not say "proved", "confirmed", or "consistent with." It says "the map shows" and "the distribution indicates."
+
+---
+
+## Current status
+
+M-Possible is in **Phase 1 (Club)** — exploration legitimacy. The protocol is published, the first pilot campaigns are in preparation, and the measurement framework is open for review and contribution.
+
+The protocol version is **v1.0-provisional**. Parameters marked as provisional (dwell time, test intervals, waiting periods) are subject to revision after first-campaign data is reviewed.
+
+---
+
+## Contributing
+
+The protocol improves through use. If you run the test and encounter an edge case, an ambiguity, or a situation the protocol does not cover — that is valuable. Open an issue describing what happened.
+
+For proposed changes to the protocol itself, please read the full protocol document first. Changes to the binary event definition, admissibility criteria, or tier separation rules require council deliberation and cannot be merged without documented justification.
+
+---
+
+## Licence
+
+*Licence to be confirmed. The intent is open access for the protocol and submitted data, with appropriate protections for operator privacy.*
+
+---
+
+## Contact
+
+*Contact information to be added once the institute's public communication channels are established.*
+
+---
+
+*Protocol developed under Council-3 ADM-EC deliberation. Documentation maintained by Institute M-Possible.*
